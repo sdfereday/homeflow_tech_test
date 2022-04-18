@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header .pure-menu-item {
+  width: 100%;
+  text-align: center;
+}
+
+.properties {
+  padding: 4em 0 2em;
+}
+
+.properties .l-box {
+  text-align: center;
+}
+
+.property {
+  width: 100%;
+  float: left;
+  text-align: left;
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.property ul {
+  padding-left: 1.5em;
+}
+
+.property li {
+  list-style: square;
+}
+
+.property-item .image {
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: .5em;
+}
+
+.property-item p {
+  margin: 0;
+}
+
+.home-menu {
+  padding: 1em 0 .2em;
+  background: rgb(240,240,240);
+  z-index:10;
+}
+
+.searchbar input {
+  width: 100%;
+}
+
+.notifications,
+.profile,
+.header .pure-menu-item a {
+  display: inline-block;
+  padding-top: 8px;
+  text-align: center;
+  color: #777;
+}
+
+.hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.profile, .notifications {
+  cursor: pointer;
+}
+
+.profile .dropdownMenu,
+.notifications .notification-items {
+  width: 16em;
+  padding: 1em;
+  top: 4em;
+  right: 0;
+  margin: 0;
+  background: #f0f0f0;
+  text-align: left;
+
+  a, span {
+    text-decoration: none;
+    color: #777;
+    font-size: 0.9em;
+  }
+
+  a:hover, span:hover {
+    text-decoration: underline;
+  }
+}
+
+.propertyInfo {
+  padding: 4em 2em 2em;
+}
+
+.centered {
+  text-align: center;
+}
